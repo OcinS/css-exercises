@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .header  {
   font-family: monospace;
   background: papayawhip;
@@ -22,4 +28,18 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+/* Nav Layouts */
+
+div.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
 }
